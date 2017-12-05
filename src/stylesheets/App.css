@@ -26,3 +26,29 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  margin: 30px auto;
+  width: 1160px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.main h1{
+  margin: 0;
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+}
+
+.actions {
+  display:flex;
+  justify-content: space-between;
+}
